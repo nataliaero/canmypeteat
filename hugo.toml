@@ -4,6 +4,10 @@ title = "Can My Pet Eat? | Safe Foods Guide for Your Pets"
 paginate = 12
 enableRobotsTXT = true
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-H1HHNYDKY3"
+
 [params]
   description = "Find out what foods are safe for your pets. Expert guides on what dogs, cats, rabbits, birds, and more can and cannot eat."
   author = "Can My Pet Eat"
