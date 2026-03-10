@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<section class="taxonomy-header">
+  <div class="container">
+    <h1 class="taxonomy-title">All {{ .Title }}</h1>
+    <p class="taxonomy-desc">Browse all our pet food safety guides organized by {{ .Data.Singular }}.</p>
+  </div>
+</section>
+
+<section class="taxonomy-articles">
+  <div class="container">
+    <div class="category-grid">
+      {{ range .Pages }}
+      <a href="{{ .Permalink }}" class="category-card">
+        {{ $name := .Title | lower }}
+        <span class="category-emoji">
+          {{ if eq $name "dogs" }}&#x1F436;{{ else if eq $name "cats" }}&#x1F431;{{ else if eq $name "rabbits" }}&#x1F430;{{ else if eq $name "birds" }}&#x1F426;{{ else if eq $name "hamsters" }}&#x1F439;{{ else if eq $name "fish" }}&#x1F41F;{{ else }}&#x1F43E;{{ end }}
+        </span>
+        <h3>{{ .Title }}</h3>
+        <p>{{ len .Pages }} articles</p>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,66 @@
+baseURL = "https://canmypeteat.org/"
+languageCode = "en-us"
+title = "Can My Pet Eat? | Safe Foods Guide for Your Pets"
+paginate = 12
+enableRobotsTXT = true
+
+[params]
+  description = "Find out what foods are safe for your pets. Expert guides on what dogs, cats, rabbits, birds, and more can and cannot eat."
+  author = "Can My Pet Eat"
+  ogImage = "/images/og-default.jpg"
+  amazonTag = "canmypeteat-20"
+  adsenseId = "ca-pub-XXXXXXXXXX"
+
+[taxonomies]
+  pet = "pets"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[menu]
+  [[menu.main]]
+    name = "Dogs"
+    url = "/pets/dogs/"
+    weight = 1
+  [[menu.main]]
+    name = "Cats"
+    url = "/pets/cats/"
+    weight = 2
+  [[menu.main]]
+    name = "Rabbits"
+    url = "/pets/rabbits/"
+    weight = 3
+  [[menu.main]]
+    name = "Birds"
+    url = "/pets/birds/"
+    weight = 4
+  [[menu.main]]
+    name = "Hamsters"
+    url = "/pets/hamsters/"
+    weight = 5
+  [[menu.main]]
+    name = "Fish"
+    url = "/pets/fish/"
+    weight = 6
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 7

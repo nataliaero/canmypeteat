@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<section class="taxonomy-header">
+  <div class="container">
+    <h1 class="taxonomy-title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="taxonomy-desc">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="taxonomy-articles">
+  <div class="container">
+    <div class="articles-grid">
+      {{ range .Pages }}
+      <article class="article-card" data-verdict="{{ .Params.verdict | default "caution" }}">
+        <a href="{{ .Permalink }}" class="article-card-link">
+          <div class="article-card-badge badge--{{ .Params.verdict | default "caution" }}">
+            {{ if eq .Params.verdict "yes" }}&#x2705; Safe{{ else if eq .Params.verdict "no" }}&#x274C; Unsafe{{ else }}&#x26A0;&#xFE0F; Caution{{ end }}
+          </div>
+          <div class="article-card-content">
+            <div class="article-card-pets">
+              {{ range .Params.pets }}
+              <span class="pet-tag pet-tag--{{ . }}">{{ . | humanize }}</span>
+              {{ end }}
+            </div>
+            <h3 class="article-card-title">{{ .Title }}</h3>
+            <p class="article-card-excerpt">{{ .Summary | truncate 120 }}</p>
+          </div>
+          <span class="article-card-cta">Read more &rarr;</span>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

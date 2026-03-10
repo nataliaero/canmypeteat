@@ -1,0 +1,36 @@
+{{- $asin := .Get "asin" -}}
+{{- $title := .Get "title" | default "Recommended Product" -}}
+{{- $price := .Get "price" | default "" -}}
+{{- $image := .Get "image" | default "" -}}
+{{- $tag := .Site.Params.amazonTag -}}
+
+<div class="amazon-box">
+  <div class="amazon-box-header">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
+    </svg>
+    Recommended Product
+  </div>
+  <div class="amazon-box-body">
+    {{ with $image }}
+    <div class="amazon-box-image">
+      <img src="{{ . }}" alt="{{ $title }}" loading="lazy" width="120" height="120">
+    </div>
+    {{ end }}
+    <div class="amazon-box-info">
+      <h4 class="amazon-box-title">{{ $title }}</h4>
+      {{ with .Inner }}<p class="amazon-box-desc">{{ . }}</p>{{ end }}
+      {{ with $price }}<span class="amazon-box-price">${{ . }}</span>{{ end }}
+      <a href="https://www.amazon.com/dp/{{ $asin }}/?tag={{ $tag }}"
+         target="_blank"
+         rel="nofollow noopener sponsored"
+         class="amazon-box-btn">
+        View on Amazon
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <p class="amazon-box-disclosure">As an Amazon Associate, we earn from qualifying purchases.</p>
+</div>

@@ -1,0 +1,96 @@
+{{ define "main" }}
+
+<article class="article" itemscope itemtype="https://schema.org/Article">
+  <div class="article-hero">
+    <div class="container">
+      <!-- Breadcrumbs -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          {{ range .Params.pets }}
+          <li><a href="/pets/{{ . }}/">{{ . | humanize }}</a></li>
+          {{ end }}
+          <li aria-current="page">{{ .Title }}</li>
+        </ol>
+      </nav>
+
+      <div class="article-meta-top">
+        {{ range .Params.pets }}
+        <span class="pet-tag pet-tag--{{ . }}">{{ . | humanize }}</span>
+        {{ end }}
+      </div>
+      <h1 class="article-title" itemprop="headline">{{ .Title }}</h1>
+      <div class="article-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
+        <span class="meta-sep">&middot;</span>
+        <span>{{ .ReadingTime }} min read</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ad: Top Banner -->
+  {{/* shortcode can be used, or placeholder */}}
+  <div class="ad-slot ad-slot--top">
+    <div class="container">
+      <div class="ad-placeholder">
+        <span>Advertisement</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-layout container">
+    <div class="article-body" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+    <aside class="article-sidebar">
+      <!-- Ad: Sidebar -->
+      <div class="ad-slot ad-slot--sidebar">
+        <div class="ad-placeholder">
+          <span>Advertisement</span>
+        </div>
+      </div>
+
+      <!-- Related Articles -->
+      {{ $related := .Site.RegularPages.Related . | first 4 }}
+      {{ with $related }}
+      <div class="sidebar-widget">
+        <h3 class="sidebar-title">Related Articles</h3>
+        <ul class="related-list">
+          {{ range . }}
+          <li>
+            <a href="{{ .Permalink }}" class="related-link">
+              <span class="related-badge badge--{{ .Params.verdict | default "caution" }}">
+                {{ if eq .Params.verdict "yes" }}&#x2705;{{ else if eq .Params.verdict "no" }}&#x274C;{{ else }}&#x26A0;&#xFE0F;{{ end }}
+              </span>
+              <span>{{ .Title }}</span>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      <!-- Ad: Sidebar bottom -->
+      <div class="ad-slot ad-slot--sidebar-bottom sticky-ad">
+        <div class="ad-placeholder">
+          <span>Advertisement</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Vet Disclaimer -->
+  <div class="container">
+    <div class="vet-disclaimer">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+      </svg>
+      <p><strong>Disclaimer:</strong> This article is for informational purposes only and does not constitute veterinary advice. Always consult your veterinarian before introducing new foods to your pet's diet.</p>
+    </div>
+  </div>
+</article>
+
+{{ end }}

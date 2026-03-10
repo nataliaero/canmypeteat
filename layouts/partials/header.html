@@ -1,0 +1,26 @@
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo" aria-label="Can My Pet Eat - Home">
+      <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="8" cy="6" r="4" fill="currentColor" opacity="0.8"/>
+        <circle cx="24" cy="6" r="4" fill="currentColor" opacity="0.8"/>
+        <circle cx="4" cy="16" r="3.5" fill="currentColor" opacity="0.7"/>
+        <circle cx="28" cy="16" r="3.5" fill="currentColor" opacity="0.7"/>
+        <ellipse cx="16" cy="21" rx="10" ry="9" fill="currentColor"/>
+      </svg>
+      <span class="logo-text">Can My Pet <em>Eat?</em></span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" id="nav-toggle">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}" class="nav-link {{ if eq .Name "About" }}nav-about{{ end }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+<section class="taxonomy-header">
+  <div class="container">
+    <h1 class="taxonomy-title">
+      {{ if eq .Data.Singular "pet" }}
+        {{ $pet := .Title | lower }}
+        {{ if eq $pet "dogs" }}&#x1F436;{{ else if eq $pet "cats" }}&#x1F431;{{ else if eq $pet "rabbits" }}&#x1F430;{{ else if eq $pet "birds" }}&#x1F426;{{ else if eq $pet "hamsters" }}&#x1F439;{{ else if eq $pet "fish" }}&#x1F41F;{{ end }}
+        Can My {{ .Title | singularize | title }} Eat...?
+      {{ else }}
+        {{ .Title }}
+      {{ end }}
+    </h1>
+    <p class="taxonomy-desc">A complete guide to safe and unsafe foods for your {{ .Title | lower | singularize }}. Click any article for a detailed breakdown.</p>
+    <div class="taxonomy-stats">
+      <span class="stat">{{ len .Pages }} articles</span>
+      <span class="stat">{{ len (where .Pages "Params.verdict" "yes") }} safe foods</span>
+      <span class="stat">{{ len (where .Pages "Params.verdict" "no") }} unsafe foods</span>
+    </div>
+  </div>
+</section>
+
+<!-- Filter tabs -->
+<div class="container">
+  <div class="filter-tabs" role="tablist">
+    <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">All</button>
+    <button class="filter-tab filter-tab--yes" data-filter="yes" role="tab" aria-selected="false">&#x2705; Safe</button>
+    <button class="filter-tab filter-tab--caution" data-filter="caution" role="tab" aria-selected="false">&#x26A0;&#xFE0F; Caution</button>
+    <button class="filter-tab filter-tab--no" data-filter="no" role="tab" aria-selected="false">&#x274C; Unsafe</button>
+  </div>
+</div>
+
+<section class="taxonomy-articles">
+  <div class="container">
+    <div class="articles-grid">
+      {{ range .Pages.ByTitle }}
+      <article class="article-card" data-verdict="{{ .Params.verdict | default "caution" }}">
+        <a href="{{ .Permalink }}" class="article-card-link">
+          <div class="article-card-badge badge--{{ .Params.verdict | default "caution" }}">
+            {{ if eq .Params.verdict "yes" }}&#x2705; Safe{{ else if eq .Params.verdict "no" }}&#x274C; Unsafe{{ else }}&#x26A0;&#xFE0F; Caution{{ end }}
+          </div>
+          <div class="article-card-content">
+            <h3 class="article-card-title">{{ .Title }}</h3>
+            <p class="article-card-excerpt">{{ .Summary | truncate 120 }}</p>
+          </div>
+          <span class="article-card-cta">Read more &rarr;</span>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
