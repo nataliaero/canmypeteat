@@ -350,11 +350,12 @@ ul,ol{list-style:none}
   background: var(--color-white);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-xl);
-  max-height: 360px;
+  max-height: 400px;
   overflow-y: auto;
   display: none;
   z-index: 50;
   border: 1px solid var(--color-sand-dark);
+  padding: var(--space-xs) 0;
 }
 .search-results.active { display: block; }
 .search-result-item {
@@ -365,24 +366,73 @@ ul,ol{list-style:none}
   border-bottom: 1px solid var(--color-sand);
   transition: background 0.15s;
   text-align: left;
+  text-decoration: none;
+  color: var(--color-text);
+  cursor: pointer;
 }
-.search-result-item:hover { background: var(--color-mint-light); }
+.search-result-item:hover {
+  background: var(--color-mint-light);
+  text-decoration: none;
+  color: var(--color-text);
+}
+.search-result-item:visited {
+  color: var(--color-text);
+}
 .search-result-item:last-child { border-bottom: none; }
 .search-result-badge {
   flex-shrink: 0;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
 }
 .search-result-badge.verdict-yes { background: var(--color-safe); }
 .search-result-badge.verdict-no { background: var(--color-danger); }
 .search-result-badge.verdict-caution { background: var(--color-caution); }
-.search-result-title { font-weight: 500; }
-.search-result-pets { font-size: 0.8rem; color: var(--color-text-light); }
+.search-result-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+.search-result-title mark {
+  background: rgba(255, 193, 7, 0.3);
+  color: inherit;
+  padding: 1px 2px;
+  border-radius: 3px;
+}
+.search-result-pets {
+  font-size: 0.78rem;
+  color: var(--color-text-light);
+  margin-top: 2px;
+  text-transform: capitalize;
+}
+.search-result-verdict {
+  margin-left: auto;
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+}
+.search-result-verdict.verdict-yes {
+  background: rgba(56, 161, 105, 0.12);
+  color: var(--color-safe);
+}
+.search-result-verdict.verdict-no {
+  background: rgba(229, 62, 62, 0.1);
+  color: var(--color-danger);
+}
+.search-result-verdict.verdict-caution {
+  background: rgba(214, 158, 46, 0.12);
+  color: #b7791f;
+}
 .search-no-results {
   padding: var(--space-xl);
   text-align: center;
   color: var(--color-text-muted);
+  font-size: 0.95rem;
 }
 
 /* ============================================

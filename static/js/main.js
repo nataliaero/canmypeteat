@@ -85,13 +85,15 @@
         return;
       }
 
+      const verdictLabels = { yes: 'Safe', no: 'Unsafe', caution: 'Caution' };
       searchResults.innerHTML = results.map(r => `
         <a href="${r.url}" class="search-result-item">
           <span class="search-result-badge verdict-${r.verdict}"></span>
-          <div>
+          <div style="flex:1;min-width:0">
             <div class="search-result-title">${highlight(r.title, q)}</div>
             <div class="search-result-pets">${r.pets ? r.pets.join(', ') : ''}</div>
           </div>
+          <span class="search-result-verdict verdict-${r.verdict}">${verdictLabels[r.verdict] || ''}</span>
         </a>
       `).join('');
       searchResults.classList.add('active');
