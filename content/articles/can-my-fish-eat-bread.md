@@ -249,7 +249,7 @@ The best diet for your fish depends on its species. Here is a guide:
 - **Frozen krill or mysis shrimp** — For carnivorous species
 - **Fresh vegetables** — Blanched peas, romaine lettuce, spinach for herbivorous species
 
-{{< amazon asin="B00025Z6YI" title="Hikari Micro Pellets for Tropical Fish" price="7.99" >}}
+{{< amazon asin="B0010P8FWO" title="Hikari Micro Pellets for Tropical Fish" price="7.99" >}}
 A scientifically formulated semi-floating pellet designed for small and medium tropical fish. Contains a balanced mix of marine and vegetable proteins, vitamins, and minerals that provide complete daily nutrition. The polar opposite of bread — this is what fish actually need.
 {{< /amazon >}}
 

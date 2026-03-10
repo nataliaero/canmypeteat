@@ -137,7 +137,7 @@ If your cat loves fish, there are safer alternatives to tuna:
 - **Whitefish** — Cod, tilapia, and similar whitefish are low in mercury and generally well-tolerated
 - **Anchovy-based cat treats** — Anchovies are very low in mercury due to their small size
 
-{{< amazon asin="B0C4FCSJD5" title="Tiki Cat Aloha Friends - Low-Mercury Fish Treats" price="7.49" >}}
+{{< amazon asin="B01AUI8H60" title="Tiki Cat Aloha Friends - Low-Mercury Fish Treats" price="7.49" >}}
 Cat treats made with low-mercury fish varieties, formulated with complete nutrition and added taurine. Gives your cat the fish flavor they crave without the mercury and nutritional risks of pure tuna.
 {{< /amazon >}}
 

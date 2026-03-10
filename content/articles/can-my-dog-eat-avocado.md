@@ -142,7 +142,7 @@ If you want to give your dog nutrient-rich foods similar to avocado, try these s
 - **Salmon** — Excellent source of omega fatty acids for coat health (cooked, boneless)
 - **Coconut** — Small amounts of coconut flesh or oil are safe and provide healthy fats
 
-{{< amazon asin="B00J3YPDQ0" title="Pure Wild Alaskan Salmon Oil for Dogs" price="16.99" >}}
+{{< amazon asin="B07BVHW5GZ" title="Pure Wild Alaskan Salmon Oil for Dogs" price="16.99" >}}
 Give your dog the healthy fats they would get from avocado — without the risks. Pure salmon oil supports skin, coat, joint, and heart health. Simply pump onto food at mealtime.
 {{< /amazon >}}
 

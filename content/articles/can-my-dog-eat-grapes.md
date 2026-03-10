@@ -134,8 +134,8 @@ Want to share fruit with your dog? These are safe options:
 - **Strawberries** — Fresh and in season, a sweet treat
 - **Cantaloupe** — Low calorie and hydrating
 
-{{< amazon asin="B0CP86KPP3" title="Fruitables Whole Jerky Dog Treats - Blueberry" price="9.99" >}}
-Real fruit jerky treats made with whole blueberries. A safe, healthy alternative to grapes that dogs love. No artificial preservatives, made in the USA.
+{{< amazon asin="B00UN9STT2" title="Fruitables Whole Jerky Dog Treats - Turkey & Sweet Potato" price="9.99" >}}
+Real whole jerky treats made with turkey and sweet potato. A safe, healthy alternative to grapes that dogs love. No artificial preservatives, made in the USA.
 {{< /amazon >}}
 
 ## Frequently Asked Questions

@@ -126,7 +126,7 @@ If you want to rotate grains or if your dog does not do well with rice, these al
 - **Barley** — Good source of fiber and helps regulate blood sugar
 - **Millet** — Easily digestible and rich in B vitamins
 
-{{< amazon asin="B071CPR15V" title="Wholesome Grains Dog Food with Brown Rice" price="42.99" >}}
+{{< amazon asin="B0862YK1SJ" title="Wholesome Grains Dog Food with Brown Rice" price="42.99" >}}
 Premium dog food formulated with brown rice as a primary ingredient. Provides balanced nutrition with easily digestible grains for everyday feeding. Complete and balanced for all life stages.
 {{< /amazon >}}
 

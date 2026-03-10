@@ -69,8 +69,8 @@ If symptoms persist for more than 24 hours, contact your veterinarian.
 
 {{< adsense >}}
 
-{{< amazon asin="B07N4B8V51" title="Fruitables Pumpkin & Pineapple Dog Treats" price="8.99" >}}
-Crunchy, oven-baked treats made with real pumpkin and pineapple. Low calorie and perfect for training or as a healthy snack.
+{{< amazon asin="B002R8SLUY" title="Fruitables Pumpkin & Apple Dog Treats" price="8.99" >}}
+Crunchy, oven-baked treats made with real pumpkin and fruit. Low calorie and perfect for training or as a healthy snack. A great fruity alternative for your pup.
 {{< /amazon >}}
 
 ## Frequently Asked Questions

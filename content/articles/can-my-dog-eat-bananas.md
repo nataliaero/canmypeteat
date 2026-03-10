@@ -117,7 +117,7 @@ Bananas can be particularly beneficial — or require extra caution — for dogs
 - **Overweight dogs** — Bananas are calorie-dense for a fruit. Keep portions very small
 - **Dogs with kidney disease** — While potassium is generally beneficial, dogs with advanced kidney disease may need to limit potassium intake. Always consult your vet
 
-{{< amazon asin="B07N1C56HS" title="KONG Classic Dog Toy - Stuff with Banana & Peanut Butter" price="14.99" >}}
+{{< amazon asin="B0002AR0I8" title="KONG Classic Dog Toy - Stuff with Banana & Peanut Butter" price="14.99" >}}
 The classic KONG toy is perfect for stuffing with mashed banana and peanut butter. Freeze it for a long-lasting enrichment treat that keeps your dog entertained and mentally stimulated.
 {{< /amazon >}}
 

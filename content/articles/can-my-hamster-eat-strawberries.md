@@ -195,7 +195,7 @@ If your hamster enjoys strawberries, try rotating with these other safe fruits:
 - Grapes and raisins — Controversial; some sources report kidney issues. Best to avoid as a precaution.
 - Fruit pits and large seeds — Cherry pits, peach pits, and apple seeds contain cyanide compounds
 
-{{< amazon asin="B07MYFZPVP" title="Kaytee Fiesta Hamster Food" price="12.99" >}}
+{{< amazon asin="B002DZI0S4" title="Kaytee Fiesta Hamster Food" price="12.99" >}}
 A complete daily diet formulated specifically for hamsters, providing balanced nutrition with a mix of grains, seeds, and dehydrated fruits and vegetables. When your hamster has a solid nutritional foundation, fresh treats like strawberries become a safe bonus rather than a dietary necessity.
 {{< /amazon >}}
 

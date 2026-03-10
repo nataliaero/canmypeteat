@@ -88,7 +88,7 @@ If you're worried about gas, these vegetables are safer daily options for rabbit
 - **Bok choy** — Mild and nutritious
 - **Carrot tops** — The greens are actually better than the carrots themselves
 
-{{< amazon asin="B0BJTHJLFF" title="Oxbow Essentials Adult Rabbit Food" price="24.99" >}}
+{{< amazon asin="B003SLLF48" title="Oxbow Essentials Adult Rabbit Food" price="24.99" >}}
 A veterinarian-recommended pellet made with timothy hay. Provides balanced nutrition as the foundation of your rabbit's diet alongside unlimited hay and fresh vegetables.
 {{< /amazon >}}
 

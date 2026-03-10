@@ -185,7 +185,7 @@ Beyond cheese, here are healthy treat options for your hamster:
 - Pumpkin seeds
 - Plain popcorn (air-popped, no salt or butter)
 
-{{< amazon asin="B07MYFZPVP" title="Kaytee Fiesta Hamster Food" price="12.99" >}}
+{{< amazon asin="B002DZI0S4" title="Kaytee Fiesta Hamster Food" price="12.99" >}}
 A nutritionally fortified daily diet with a mix of seeds, grains, fruits, and vegetables designed specifically for hamsters. Provides the balanced nutrition your hamster needs as a dietary foundation, making occasional treats like cheese a safe supplement rather than a nutritional necessity.
 {{< /amazon >}}
 

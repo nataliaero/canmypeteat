@@ -148,7 +148,7 @@ Instead of chocolate, treat your cat to these safe options:
 - **Freeze-dried meat treats** — Pure meat with no additives
 - **Catnip** — A safe indulgence that most cats enjoy
 
-{{< amazon asin="B0B1GWLSLB" title="PureBites Freeze-Dried Chicken Cat Treats" price="8.99" >}}
+{{< amazon asin="B071P7M2HG" title="PureBites Freeze-Dried Chicken Cat Treats" price="8.99" >}}
 Single-ingredient freeze-dried chicken breast treats. 100% pure protein with no additives, preservatives, or fillers. A safe and healthy alternative to any human food.
 {{< /amazon >}}
 

@@ -130,7 +130,7 @@ If your rabbit has eaten iceberg lettuce or too much of any lettuce, watch for:
 
 If symptoms are mild (slightly soft droppings), reduce greens and increase hay for 24-48 hours. If diarrhea is present or your rabbit stops eating, seek veterinary care immediately.
 
-{{< amazon asin="B001CQGEFW" title="Oxbow Western Timothy Hay" price="19.99" >}}
+{{< amazon asin="B000WFKF9O" title="Oxbow Western Timothy Hay" price="19.99" >}}
 Premium timothy hay that should be the foundation of your rabbit's diet. Unlimited hay keeps the digestive system moving and teeth worn down naturally. Pair with fresh greens like romaine lettuce for complete nutrition.
 {{< /amazon >}}
 

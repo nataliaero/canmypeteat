@@ -111,7 +111,7 @@ Monitor your rabbit after offering strawberries for the first time or after a la
 
 If you notice diarrhea, bloating, or your rabbit stops eating and producing droppings, seek veterinary care immediately. These can be signs of GI stasis, which is life-threatening.
 
-{{< amazon asin="B0BJTHJLFF" title="Oxbow Essentials Adult Rabbit Food" price="24.99" >}}
+{{< amazon asin="B003SLLF48" title="Oxbow Essentials Adult Rabbit Food" price="24.99" >}}
 The foundation of a healthy rabbit diet. Made with timothy hay and fortified with essential vitamins and minerals. Pair with unlimited hay and fresh greens for complete nutrition.
 {{< /amazon >}}
 

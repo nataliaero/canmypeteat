@@ -153,8 +153,8 @@ Instead of chocolate, try these dog-safe treats your pup will love just as much:
 - **Apple slices** — Remove the seeds and core first
 - **Sweet potato** — Cooked and cut into small pieces
 
-{{< amazon asin="B08TVFDG36" title="Carob Dog Treats - Chocolate-Free Flavor" price="11.99" >}}
-Made with real carob, these treats give your dog a chocolate-like flavor that is 100% safe. No theobromine, no caffeine, no risk. A perfect guilt-free snack for your pup.
+{{< amazon asin="B07S8DT6DF" title="Three Dog Bakery Carob Chip Cookies for Dogs" price="11.99" >}}
+Made with real carob chips, these cookies give your dog a chocolate-like flavor that is 100% safe. No theobromine, no caffeine, no risk. A perfect guilt-free snack for your pup.
 {{< /amazon >}}
 
 ## Frequently Asked Questions

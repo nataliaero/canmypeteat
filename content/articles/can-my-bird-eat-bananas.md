@@ -207,7 +207,7 @@ If your bird enjoys banana, consider adding these other safe fruits to their rot
 - **Avocado** — Extremely toxic and potentially fatal to all bird species due to persin
 - **Fruit seeds and pits** — Apple seeds, cherry pits, peach pits, and apricot pits contain cyanide compounds
 
-{{< amazon asin="B0002AQNP4" title="ZuPreem FruitBlend Bird Food for Medium Birds" price="18.99" >}}
+{{< amazon asin="B0054RV486" title="ZuPreem FruitBlend Bird Food for Medium Birds" price="18.99" >}}
 A nutritionally complete pelleted diet with natural fruit flavors that birds love. While fresh fruits like banana make excellent treats, a high-quality pellet should form the foundation (60-70%) of your bird's diet. Designed for cockatiels, conures, and similar medium-sized species.
 {{< /amazon >}}
 

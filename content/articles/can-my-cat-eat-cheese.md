@@ -85,7 +85,7 @@ If your cat shows these signs after eating dairy, avoid cheese and other dairy p
 
 {{< adsense >}}
 
-{{< amazon asin="B000WFKDS0" title="Temptations Classic Cat Treats" price="5.49" >}}
+{{< amazon asin="B00IOTB7PG" title="Temptations Classic Cat Treats" price="5.49" >}}
 If your cat loves savory snacks, these veterinarian-recommended treats are a safer alternative to cheese. Crunchy outside, soft inside — cats love them.
 {{< /amazon >}}
 

@@ -131,7 +131,7 @@ While eggs are generally safe, some cats should avoid them or eat them sparingly
 - **Cats with food allergies** — Although rare, some cats can be allergic to eggs. If your cat has never had eggs before, introduce a very small amount and watch for reactions (itching, digestive upset, vomiting)
 - **Cats with pancreatitis** — The fat content may trigger flare-ups in cats with a history of pancreatitis
 
-{{< amazon asin="B07WR9B6MX" title="Purina Fancy Feast Purely Natural Cat Treats" price="6.99" >}}
+{{< amazon asin="B01IQR40X6" title="Purina Fancy Feast Purely Natural Cat Treats" price="6.99" >}}
 If your cat loves eggs, they will love these natural treats with real egg and chicken. High in protein with no artificial additives. Perfect for training or as a special reward.
 {{< /amazon >}}
 

@@ -130,7 +130,7 @@ There are plenty of healthy, safe alternatives to share with your bird:
 - Sprouted seeds
 - Species-appropriate seed mix
 
-{{< amazon asin="B0002AQNP4" title="ZuPreem FruitBlend Bird Food for Medium Birds" price="18.99" >}}
+{{< amazon asin="B0054RV486" title="ZuPreem FruitBlend Bird Food for Medium Birds" price="18.99" >}}
 Nutritionally balanced pellet food with natural fruit flavors that birds love. Provides complete daily nutrition without any of the risks of sharing human foods. Essential for cockatiels, conures, and similar species.
 {{< /amazon >}}
 
