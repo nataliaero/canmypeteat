@@ -12,7 +12,7 @@ enableRobotsTXT = true
   description = "Find out what foods are safe for your pets. Expert guides on what dogs, cats, rabbits, birds, and more can and cannot eat."
   author = "Can My Pet Eat"
   ogImage = "/images/og-default.jpg"
-  amazonTag = "canmypeteat-20"
+  amazonTag = "canmypeteat20-20"
   adsenseId = "ca-pub-XXXXXXXXXX"
 
 [taxonomies]
