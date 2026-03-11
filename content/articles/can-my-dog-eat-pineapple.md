@@ -5,6 +5,7 @@ date: 2026-03-01
 pets: ["dogs"]
 tags: ["fruits", "safe-foods", "vitamins"]
 verdict: "yes"
+image: "/images/articles/dog-pineapple.webp"
 faq:
   - question: "Can dogs eat pineapple?"
     answer: "Yes, dogs can eat fresh pineapple in small amounts. It's a healthy treat rich in vitamins and minerals."

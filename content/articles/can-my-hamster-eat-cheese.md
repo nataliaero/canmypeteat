@@ -5,6 +5,7 @@ date: 2026-03-07
 pets: ["hamsters"]
 tags: ["caution-foods", "dairy", "protein", "treats"]
 verdict: "caution"
+image: "/images/articles/hamster-cheese.webp"
 faq:
   - question: "Can hamsters eat cheese?"
     answer: "Yes, hamsters can eat small amounts of mild, low-fat cheese as an occasional treat. However, cheese is high in fat and salt, and too much can cause obesity, digestive problems, and other health issues. Moderation is essential."

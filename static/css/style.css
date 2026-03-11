@@ -20,16 +20,16 @@
   --color-bark: #6c584c;
   --color-bark-light: #a98467;
 
-  /* Verdict colors */
-  --color-safe: #2d6a4f;
-  --color-safe-bg: #d8f3dc;
-  --color-safe-border: #95d5b2;
-  --color-danger: #a4161a;
-  --color-danger-bg: #f8d7da;
-  --color-danger-border: #f1aeb5;
-  --color-caution: #e09f3e;
-  --color-caution-bg: #fff3cd;
-  --color-caution-border: #ffe69c;
+  /* Verdict colors — soft pastel palette */
+  --color-safe: #3a7d5c;
+  --color-safe-bg: #edf7f0;
+  --color-safe-border: #c1e6cd;
+  --color-danger: #b85454;
+  --color-danger-bg: #fdf0f0;
+  --color-danger-border: #f0c9c9;
+  --color-caution: #c48a2a;
+  --color-caution-bg: #fef9ef;
+  --color-caution-border: #f0ddb0;
 
   /* Text */
   --color-text: #2c2c2c;
@@ -534,23 +534,62 @@ ul,ol{list-style:none}
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
 }
+/* Soft left accent bar per verdict */
+.article-card--yes  { border-left: 4px solid var(--color-safe-border); }
+.article-card--no   { border-left: 4px solid var(--color-danger-border); }
+.article-card--caution { border-left: 4px solid var(--color-caution-border); }
+
 .article-card-link {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: var(--space-lg);
   color: var(--color-text);
+}
+
+/* Card image */
+.article-card-image {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--color-sand);
+}
+.article-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s var(--ease-out);
+}
+.article-card:hover .article-card-image img {
+  transform: scale(1.05);
+}
+
+/* Card body */
+.article-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--space-md) var(--space-lg) var(--space-lg);
+}
+
+/* Meta row: badge + pet tags */
+.article-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: var(--space-sm);
 }
 .article-card-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 4px 12px;
+  gap: 4px;
+  padding: 3px 10px;
   border-radius: var(--radius-full);
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   width: fit-content;
-  margin-bottom: var(--space-md);
 }
 .badge--yes {
   background: var(--color-safe-bg);
@@ -564,50 +603,44 @@ ul,ol{list-style:none}
 }
 .badge--caution {
   background: var(--color-caution-bg);
-  color: #8a6d3b;
+  color: var(--color-caution);
   border: 1px solid var(--color-caution-border);
 }
-.article-card-pets {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: var(--space-sm);
-}
 .pet-tag {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  padding: 2px 10px;
+  padding: 2px 8px;
   border-radius: var(--radius-full);
   text-transform: capitalize;
   background: var(--color-sand);
   color: var(--color-bark);
 }
-.pet-tag--dogs { background: #fef3c7; color: #92400e; }
-.pet-tag--cats { background: #fce7f3; color: #9d174d; }
-.pet-tag--rabbits { background: #d1fae5; color: #065f46; }
-.pet-tag--birds { background: #dbeafe; color: #1e40af; }
-.pet-tag--hamsters { background: #fef3c7; color: #92400e; }
-.pet-tag--fish { background: #e0f2fe; color: #075985; }
+.pet-tag--dogs { background: #fef8e8; color: #92400e; }
+.pet-tag--cats { background: #fdf2f8; color: #9d174d; }
+.pet-tag--rabbits { background: #ecfdf5; color: #065f46; }
+.pet-tag--birds { background: #eff6ff; color: #1e40af; }
+.pet-tag--hamsters { background: #fef8e8; color: #92400e; }
+.pet-tag--fish { background: #f0f9ff; color: #075985; }
 
-.article-card-content { flex: 1; }
 .article-card-title {
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--color-forest-dark);
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-xs);
   line-height: 1.35;
 }
 .article-card-excerpt {
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   color: var(--color-text-muted);
-  line-height: 1.6;
+  line-height: 1.55;
+  flex: 1;
 }
 .article-card-cta {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--color-forest);
   margin-top: var(--space-md);

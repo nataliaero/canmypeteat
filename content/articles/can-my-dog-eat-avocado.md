@@ -5,6 +5,7 @@ date: 2026-03-05
 pets: ["dogs"]
 tags: ["toxic-foods", "fruits", "persin", "caution-foods"]
 verdict: "no"
+image: "/images/articles/dog-avocado.webp"
 faq:
   - question: "Can dogs eat avocado?"
     answer: "Avocado is not recommended for dogs. The skin, pit, and leaves contain persin, a fungicidal toxin that can cause vomiting and diarrhea. The flesh has much less persin, but the high fat content can trigger pancreatitis. The pit is also a serious choking and obstruction hazard."

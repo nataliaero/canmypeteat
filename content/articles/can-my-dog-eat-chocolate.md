@@ -5,6 +5,7 @@ date: 2026-03-09
 pets: ["dogs"]
 tags: ["toxic-foods", "emergency", "theobromine"]
 verdict: "no"
+image: "/images/articles/dog-chocolate.webp"
 faq:
   - question: "Why is chocolate toxic to dogs?"
     answer: "Chocolate contains theobromine and caffeine, two stimulants that dogs metabolize much more slowly than humans. These compounds can cause vomiting, diarrhea, rapid heart rate, seizures, and in severe cases, death."

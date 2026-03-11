@@ -5,6 +5,7 @@ date: 2026-03-05
 pets: ["cats"]
 tags: ["dairy", "caution-foods", "lactose"]
 verdict: "caution"
+image: "/images/articles/cat-cheese.webp"
 faq:
   - question: "Can cats eat cheese?"
     answer: "Most cats can have very small amounts of certain cheeses as an occasional treat, but many cats are lactose intolerant and may experience digestive upset."

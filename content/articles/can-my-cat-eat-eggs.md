@@ -5,6 +5,7 @@ date: 2026-03-06
 pets: ["cats"]
 tags: ["protein", "safe-foods", "cooked-foods"]
 verdict: "yes"
+image: "/images/articles/cat-eggs.webp"
 faq:
   - question: "Can cats eat eggs?"
     answer: "Yes, fully cooked eggs are safe and nutritious for cats. Eggs are an excellent source of complete protein, containing all the essential amino acids cats need. They should always be cooked thoroughly and served plain without salt, butter, or seasonings."

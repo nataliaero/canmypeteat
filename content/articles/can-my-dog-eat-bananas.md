@@ -5,6 +5,7 @@ date: 2026-03-07
 pets: ["dogs"]
 tags: ["fruits", "safe-foods", "potassium", "vitamins"]
 verdict: "yes"
+image: "/images/articles/dog-bananas.webp"
 faq:
   - question: "Can dogs eat bananas?"
     answer: "Yes, bananas are safe and healthy for dogs in moderation. They are rich in potassium, vitamin B6, vitamin C, and fiber. However, they are also high in sugar, so they should be given as an occasional treat."

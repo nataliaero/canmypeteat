@@ -5,6 +5,7 @@ date: 2026-03-04
 pets: ["cats"]
 tags: ["toxic-foods", "emergency", "theobromine"]
 verdict: "no"
+image: "/images/articles/cat-chocolate.webp"
 faq:
   - question: "Can cats eat chocolate?"
     answer: "No, chocolate is toxic to cats. It contains theobromine and caffeine, which cats metabolize even more slowly than dogs. Even small amounts of chocolate can cause serious health problems in cats."

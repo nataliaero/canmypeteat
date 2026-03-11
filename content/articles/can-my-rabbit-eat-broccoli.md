@@ -5,6 +5,7 @@ date: 2026-03-08
 pets: ["rabbits"]
 tags: ["vegetables", "caution-foods", "gas"]
 verdict: "caution"
+image: "/images/articles/rabbit-broccoli.webp"
 faq:
   - question: "Can rabbits eat broccoli?"
     answer: "Yes, rabbits can eat broccoli in small amounts, but it can cause gas and bloating which can be dangerous for rabbits. Introduce it slowly and in moderation."

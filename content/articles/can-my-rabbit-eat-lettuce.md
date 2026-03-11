@@ -5,6 +5,7 @@ date: 2026-03-03
 pets: ["rabbits"]
 tags: ["vegetables", "caution-foods", "leafy-greens", "lactucarium"]
 verdict: "caution"
+image: "/images/articles/rabbit-lettuce.webp"
 faq:
   - question: "Can rabbits eat lettuce?"
     answer: "It depends on the type. Dark leafy lettuces like romaine, green leaf, and red leaf are safe and nutritious. However, iceberg lettuce should be avoided as it contains lactucarium, which can be harmful, and has almost no nutritional value."

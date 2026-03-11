@@ -5,6 +5,7 @@ date: 2026-03-04
 pets: ["rabbits"]
 tags: ["fruits", "safe-foods", "sugar", "treats"]
 verdict: "yes"
+image: "/images/articles/rabbit-strawberries.webp"
 faq:
   - question: "Can rabbits eat strawberries?"
     answer: "Yes, rabbits can eat strawberries as an occasional treat. They are not toxic and contain vitamin C and antioxidants. However, strawberries are high in sugar, so they should be limited to 1-2 small strawberries per week for an average-sized rabbit."

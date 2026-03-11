@@ -5,6 +5,7 @@ date: 2026-03-08
 pets: ["dogs"]
 tags: ["toxic-foods", "emergency", "kidney-failure", "fruits"]
 verdict: "no"
+image: "/images/articles/dog-grapes.webp"
 faq:
   - question: "Can dogs eat grapes?"
     answer: "No, dogs should never eat grapes or raisins. Even a single grape can cause acute kidney failure in some dogs. The exact toxic substance has not been fully identified, making it impossible to determine a safe amount."

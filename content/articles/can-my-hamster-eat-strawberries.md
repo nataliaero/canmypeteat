@@ -5,6 +5,7 @@ date: 2026-03-06
 pets: ["hamsters"]
 tags: ["safe-foods", "fruits", "vitamins", "treats"]
 verdict: "yes"
+image: "/images/articles/hamster-strawberries.webp"
 faq:
   - question: "Can hamsters eat strawberries?"
     answer: "Yes, hamsters can eat strawberries in small amounts. Strawberries are non-toxic and provide vitamin C, antioxidants, and hydration. However, due to their sugar content, portions should be small and infrequent — about a teaspoon-sized piece once or twice a week."

@@ -5,6 +5,7 @@ date: 2026-03-06
 pets: ["dogs"]
 tags: ["grains", "safe-foods", "bland-diet", "digestion"]
 verdict: "yes"
+image: "/images/articles/dog-rice.webp"
 faq:
   - question: "Can dogs eat rice?"
     answer: "Yes, both white and brown rice are safe for dogs. White rice is particularly recommended by veterinarians as part of a bland diet for dogs with stomach issues. Rice should be plain, cooked, and served without seasonings."

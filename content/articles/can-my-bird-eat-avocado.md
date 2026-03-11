@@ -5,6 +5,7 @@ date: 2026-03-03
 pets: ["birds"]
 tags: ["toxic-foods", "emergency", "persin", "fatal"]
 verdict: "no"
+image: "/images/articles/bird-avocado.webp"
 faq:
   - question: "Can birds eat avocado?"
     answer: "No, absolutely not. Avocado is one of the most toxic foods for birds. The persin toxin in avocado can cause heart failure and death in birds within 12-48 hours. No part of the avocado is safe for any species of pet bird."

@@ -5,6 +5,7 @@ date: 2026-03-02
 pets: ["fish"]
 tags: ["toxic-foods", "common-myths", "digestive-issues"]
 verdict: "no"
+image: "/images/articles/fish-bread.webp"
 faq:
   - question: "Can fish eat bread?"
     answer: "No, bread is not safe for pet fish. It expands in water and in the fish's stomach, causing bloating, constipation, and potentially fatal intestinal blockages. Bread also lacks the nutrients fish need and degrades water quality rapidly."

@@ -5,6 +5,7 @@ date: 2026-03-07
 pets: ["cats"]
 tags: ["fish", "caution-foods", "mercury", "protein"]
 verdict: "caution"
+image: "/images/articles/cat-tuna.webp"
 faq:
   - question: "Can cats eat tuna?"
     answer: "Cats can eat small amounts of tuna as an occasional treat, but it should not be a regular part of their diet. Tuna lacks essential nutrients cats need, contains mercury that accumulates over time, and can lead to an unhealthy addiction where cats refuse other foods."

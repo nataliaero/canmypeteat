@@ -5,6 +5,7 @@ date: 2026-03-09
 pets: ["birds"]
 tags: ["safe-foods", "fruits", "vitamins", "treats"]
 verdict: "yes"
+image: "/images/articles/bird-bananas.webp"
 faq:
   - question: "Can birds eat bananas?"
     answer: "Yes, bananas are safe and healthy for most pet birds. They provide potassium, vitamins, and natural energy. Serve small pieces of ripe banana as an occasional treat alongside a balanced diet."

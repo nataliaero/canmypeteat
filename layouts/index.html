@@ -80,21 +80,26 @@
     <p class="section-subtitle">Recently published food safety guides</p>
     <div class="articles-grid">
       {{ range first 6 (where .Site.RegularPages "Section" "articles") }}
-      <article class="article-card">
+      <article class="article-card article-card--{{ .Params.verdict | default "caution" }}">
         <a href="{{ .Permalink }}" class="article-card-link">
-          <div class="article-card-badge badge--{{ .Params.verdict | default "caution" }}">
-            {{ if eq .Params.verdict "yes" }}&#x2705; Safe{{ else if eq .Params.verdict "no" }}&#x274C; Unsafe{{ else }}&#x26A0;&#xFE0F; Caution{{ end }}
+          {{ with .Params.image }}
+          <div class="article-card-image">
+            <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" width="400" height="400">
           </div>
-          <div class="article-card-content">
-            <div class="article-card-pets">
+          {{ end }}
+          <div class="article-card-body">
+            <div class="article-card-meta">
+              <span class="article-card-badge badge--{{ $.Params.verdict | default "caution" }}">
+                {{ if eq $.Params.verdict "yes" }}Safe{{ else if eq $.Params.verdict "no" }}Unsafe{{ else }}Caution{{ end }}
+              </span>
               {{ range .Params.pets }}
               <span class="pet-tag pet-tag--{{ . }}">{{ . | humanize }}</span>
               {{ end }}
             </div>
             <h3 class="article-card-title">{{ .Title }}</h3>
-            <p class="article-card-excerpt">{{ .Summary | truncate 120 }}</p>
+            <p class="article-card-excerpt">{{ .Summary | truncate 100 }}</p>
+            <span class="article-card-cta">Read more &rarr;</span>
           </div>
-          <span class="article-card-cta">Read more &rarr;</span>
         </a>
       </article>
       {{ end }}
