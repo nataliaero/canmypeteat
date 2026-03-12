@@ -13,7 +13,7 @@ enableRobotsTXT = true
   author = "Can My Pet Eat"
   ogImage = "/images/og-default.jpg"
   amazonTag = "canmypeteat20-20"
-  adsenseId = "ca-pub-XXXXXXXXXX"
+  adsenseId = "ca-pub-1553025861668350"
 
 [taxonomies]
   pet = "pets"
